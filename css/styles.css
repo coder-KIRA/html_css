@@ -1,0 +1,88 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700;900&display=swap');
+
+ .header-wrapper {
+     display: block;
+     height: 80px;
+     background-color: rgb(27, 27, 28);
+
+ }
+
+ .footer-wrapper {
+     display: block;
+     height: 216px;
+     background-color: rgb(27, 27, 28);
+ }
+
+ body {
+     background-color: floralwhite
+ }
+
+ html {
+     font-family: "Roboto", "PT Sans", sans-serif;
+     font-size: 16px;
+ }
+
+ p {
+     font-size: 16px;
+     font-family: "Roboto"
+         color: rgb(42, 42, 42);
+     line-height: 1.375;
+     text-align: left;
+     margin-bottom: 20px;
+ }
+
+ .content {
+     width: 700px;
+     margin: 0 auto 40px auto;
+ }
+
+ h1,
+ h2,
+ h3 {
+     font-weight: bold;
+     text-align: center;
+     margin-bottom: 20px;
+ }
+
+ h1 {
+     font-size: 2rem
+ }
+
+ h2 {
+     font-size: 1.6rem
+ }
+
+ ul.our-team li img {
+     border: 5px solid gray;
+     border-radius: 50%;
+     margin: 0 auto;
+     display: block
+ }
+
+ li b {
+     font-family: "FIO";
+     font-weight: bold;
+     font-size: 1.4rem
+ }
+
+ a,
+ a:visited {
+     color: white;
+     font-size: 1rem;
+ }
+
+ a:hover,
+ a:visited:hover {
+     color: red
+ }
+
+ a:active,
+ a:visited:active {
+     color: orange;
+ }
+
+ strong {
+     font-weight: bold;
+ }
+
+ }

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Посуточная аренда элитных квартир в Санкт-Петербурге</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        .review .text {
+            width: 459px;
+            height: 59px;
+        }
+
+        .review .author {
+            font-weight: bold;
+        }
+
+        .review {
+            width: 468px;
+            height: 136px;
+            background-color: #f4efed;
+            padding: 40px 60px 40px 40px;
+            margin: 0px 15px 30px 15px;
+        }
+
+        .review: first-child {
+            margin-left: 0;
+        }
+
+        .review: last-child {
+            margin-right: 0;
+        }
+
+        h2 {
+            font-size: 32px;
+            color: rgb(42, 42, 42);
+            font-weight: bold;
+            line-height: 1.5;
+            text-align: center;
+            margin-bottom: 42px;
+        }
+
+        .review img {
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+        }
+
+        .logo {
+            width: 35px;
+            height: 38px;
+            display: block;
+            background-image: url(/static/logo.svg);
+        }
+
+        .logo :hover {
+            opacity: 0.4;
+        }
+
+        .footer .contacts a {
+            display: block;
+            background-image: url(/static/contacts.png);
+            float: right;
+            margin-top: 20px;
+            margin-right: 30px;
+        }
+
+        .footer .contacts a {
+            opacity: 0.4
+        }
+
+        .footer .contacts a.email {
+            width: 16px;
+            height: 13px;
+        }
+
+        .footer .contacts a.vk {
+            width: 22px;
+            height: 12px;
+            background-position: -22px 0;
+        }
+
+        .footer .contacts a.fb {
+            width: 14px;
+            height: 14px;
+            background-position: -22px -14;
+        }
+
+        .footer .contacts a.insta {
+            width: 14px;
+            height: 14px;
+            background-position: 0px -14;
+        }
+
+        h1 {
+            display: none
+        }
+    </style>
+</head>
+
+<body>
+    <!--Шапка-->
+    <header class="header-wrapper">
+        <div class="contents">
+            <nav>
+                <ul class="main-menu">
+                    <li><a href="/" class="logo" title="Главная"></a></li>
+                    <li><a href="/flats.html">Квартиры</a></li>
+                    <li><a href="/about.html">О компании</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <h1>Посуточная аренда элитных квартир в Санкт-Петербурге</h1>
+    <!--/Шапка-->
+
+    <!--Квартиры-->
+    <section class="flats-wrapper">
+        <div class="content">
+            <h2>Наши квартиры</h2>
+            <ul class="flats">
+                <div class="price">7000</div>
+                <img src="" alt="">
+                <div class="base-desc">
+                    <div class="rooms">1-комнатная</div>
+                    <div class="address">Лиговский пр-т, 130</div>
+                </div>
+                <ul class="params">
+                    <li class="guests">2 гостя</li>
+                    <li class="beds">2 спальных места</li>
+                </ul>
+            </ul>
+            <footer>
+                <a href="">Все квартиры</a>
+            </footer>
+        </div> <!-- .contents -->
+    </section> <!-- .frats-wrapper -->
+    <!--/Квартиры-->
+
+    <!-- Отзывы -->
+    <section class="reviews-wrapper">
+        <div class="content">
+            <h2>Отзывы</h2>
+            <div class="reviews">
+                <div class="review">
+                    <p class="text">Спасибо за домашний уют и тепло! С вами я точно знаю, что лучшего места я не найду за доступные деньги. Идеальный порядок чистота. Спасибо вам!</p>
+                    <div>
+                        <img src="/images/comments/B_01.png" class="photo">
+                        <p class="author"> Татьяна, г. Калининград</p>
+                        <p class="date"> 22 октября 2018</p>
+                    </div>
+                </div>
+                <div class="review">
+                    <p class="text">Очень чисто и аккуратно. Недавно сделан ремонт. Фотографии соответствуют реальности. На кухне есть все необходимое. Спасибо!</p>
+                    <div>
+                        <img src="/images/comments/B_02.jpg" class="photo">
+                        <p class="author"> Николай, г. Новосибирск</p>
+                        <p class="date"> 14 сентября 2018</p>
+                    </div>
+                </div>
+            </div><!-- .reviews -->
+        </div><!-- .content-->
+    </section><!-- .reviews-wrapper -->
+    <!-- /Отзывы -->
+
+    <!-- Подвал -->
+    <footer class="footer-wrapper">
+        <div class="footer contents">
+            <ul class="contacts">
+                <li><a href="" class="email"></a></li>
+                <li><a href="" class="vk"></a></li>
+                <li><a href="" class="fb"></a></li>
+                <li><a href="" class="insta"></a></li>
+            </ul>
+        </div>
+    </footer>
+    <!-- /Подвал -->
+
+
+</body></html>
